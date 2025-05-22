@@ -1,5 +1,3 @@
-import '../styles/globals.css';
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-orange-500 flex flex-col items-center justify-center px-4">
