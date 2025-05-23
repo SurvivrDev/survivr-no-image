@@ -1,6 +1,11 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-orange-500 flex flex-col items-center justify-center px-4">
+<img
+  src="/survivr.jpg"  // ← adapte avec ton vrai nom d'image
+  alt="SURVIVR Logo"
+  className="w-48 h-48 mb-6"
+/>
       <h1 className="text-4xl font-bold tracking-widest mb-4">SURVIVR</h1>
       <p className="text-lg text-orange-300 mb-6">A survival game on-chain</p>
 
