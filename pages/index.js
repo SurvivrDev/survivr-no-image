@@ -13,13 +13,13 @@ export default function Home() {
 
       <p className="text-sm text-orange-300 mt-8">Mint coming soon</p>
       <a
-        href="https://twitter.com/SurvivrNFT"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-sm underline text-orange-400 mt-2"
-      >
-        Follow us on X
-      </a>
+  href="https://twitter.com/Survivrnbrone"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-sm underline text-orange-400 mt-2"
+>
+  Follow us on X
+</a>
 
       <div id="whitepaper" className="mt-20 max-w-3xl text-left">
         <h2 className="text-2xl font-bold mb-4">SURVIVR Whitepaper (Lite)</h2>
