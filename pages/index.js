@@ -5,11 +5,11 @@ export default function Home() {
       <p className="text-lg text-orange-300 mb-6">A survival game on-chain</p>
 
       <a
-        href="#whitepaper"
-        className="bg-orange-500 text-black px-6 py-2 rounded-xl font-bold hover:bg-orange-400 transition"
-      >
-        Read the Whitepaper
-      </a>
+  href="/whitepaper"
+  className="bg-orange-500 text-black px-6 py-2 rounded-xl font-bold hover:bg-orange-400 transition"
+>
+  Read the Whitepaper
+</a>
 
       <p className="text-sm text-orange-300 mt-8">Mint coming soon</p>
       <a
