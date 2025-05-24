@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Whitepaper() {
   return (
-    <div className="min-h-screen bg-black text-orange-500 px-4 py-12 w-full max-w-5xl mx-auto">
+    <div className="min-h-screen bg-black text-orange-500 px-4 py-12 w-full">
       <div className="text-center mb-10">
         <a
           href="/"
