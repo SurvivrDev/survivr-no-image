@@ -3,8 +3,8 @@ import React from 'react';
 
 export default function Whitepaper() {
   return (
-    <div className="min-h-screen bg-black text-orange-500 px-4 py-12 w-full">
-      <div className="text-center mb-10">
+    <div className="min-h-screen bg-black text-orange-500 px-4 py-12 w-full text-center">
+      <div className="mb-10">
         <a
           href="/"
           className="inline-block bg-orange-500 text-black px-4 py-2 rounded-xl font-bold hover:bg-orange-400 transition"
@@ -13,7 +13,7 @@ export default function Whitepaper() {
         </a>
       </div>
 
-      <h1 className="text-4xl font-bold text-center mb-10">SURVIVR - Whitepaper</h1>
+      <h1 className="text-4xl font-bold mb-10">SURVIVR - Whitepaper</h1>
 
       <section className="mb-10">
         <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
@@ -23,7 +23,7 @@ export default function Whitepaper() {
 
       <section className="mb-10">
         <h2 className="text-2xl font-bold mb-4">2. Game Mechanics</h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 text-left">
           <li>999 NFTs to mint.</li>
           <li>Each NFT represents one entry in the survival game.</li>
           <li>Once all NFTs are minted, the elimination begins.</li>
@@ -37,7 +37,7 @@ export default function Whitepaper() {
 
       <section className="mb-10">
         <h2 className="text-2xl font-bold mb-4">3. Smart Contract Logic</h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 text-left">
           <li>Deployed on Ethereum mainnet.</li>
           <li>Contract follows the ERC-721A standard for optimized minting.</li>
           <li>Random elimination handled via Chainlink VRF or equivalent secure randomness oracle.</li>
@@ -50,7 +50,7 @@ export default function Whitepaper() {
 
       <section className="mb-10">
         <h2 className="text-2xl font-bold mb-4">4. Mint Economics</h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 text-left">
           <li>Mint price: 0.01 ETH</li>
           <li>Supply: 999 tokens</li>
           <li>If sold out, total collected: 9.99 ETH</li>
@@ -62,7 +62,7 @@ export default function Whitepaper() {
 
       <section className="mb-10">
         <h2 className="text-2xl font-bold mb-4">5. Security & Fairness</h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 text-left">
           <li>Code is open-source.</li>
           <li>All mechanics are on-chain and immutable.</li>
           <li>Chainlink VRF (or similar) ensures fair randomization.</li>
@@ -74,7 +74,7 @@ export default function Whitepaper() {
 
       <section className="mb-10">
         <h2 className="text-2xl font-bold mb-4">6. NFT Utility & Evolution</h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 text-left">
           <li>NFTs change visually as the game progresses.</li>
           <li>Color schemes, rarity frames, survivor rankings</li>
           <li>Top survivors gain cosmetic distinctions</li>
@@ -85,7 +85,7 @@ export default function Whitepaper() {
 
       <section className="mb-10">
         <h2 className="text-2xl font-bold mb-4">7. Timeline</h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 text-left">
           <li>Launch site + teaser: ✅</li>
           <li>Giveaway & early marketing: In progress</li>
           <li>Mint start: TBD</li>
