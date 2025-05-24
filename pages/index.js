@@ -37,7 +37,7 @@ export default function Home() {
           <li className="text-center">Final reward sent automatically to the last survivor</li>
         </ul>
         <p className="mt-6 text-orange-300 text-sm">
-          Full whitepaper coming soon with smart contract & audit details.
+          Whitepaper already available, smart contract & audit details soon.
         </p>
       </div>
     </div>
