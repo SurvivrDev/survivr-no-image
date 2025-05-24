@@ -27,11 +27,11 @@ export default function Home() {
           SURVIVR is a fully on-chain death game. 999 NFTs enter. 1 survives.
           Elimination is random. The last wallet standing wins 70% of the pot.
         </p>
-        <ul className="list-disc list-inside space-y-2 text-left mx-auto max-w-md">
-          <li>Mint: 0.01 ETH per NFT</li>
-          <li>1 elimination every minute (after sellout)</li>
-          <li>NFTs evolve visually as players are eliminated</li>
-          <li>Final reward sent automatically to the last survivor</li>
+        <ul className="list-disc list-inside space-y-2 inline-block text-left">
+          <li className="text-center">Mint: 0.01 ETH per NFT</li>
+          <li className="text-center">1 elimination every minute (after sellout)</li>
+          <li className="text-center">NFTs evolve visually as players are eliminated</li>
+          <li className="text-center">Final reward sent automatically to the last survivor</li>
         </ul>
         <p className="mt-6 text-orange-300 text-sm">
           Full whitepaper coming soon with smart contract & audit details.
