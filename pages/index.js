@@ -1,12 +1,7 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-orange-500 flex flex-col items-center justify-center px-4">
-<img
-  src="/survivr.jpg"  // ← adapte avec ton vrai nom d'image
-  alt="SURVIVR Logo"
-  className="w-48 h-48 mb-6"
-/>
-      <h1 className="text-4xl font-bold tracking-widest mb-4">SURVIVR</h1>
+      <h1 className="text-6xl font-extrabold tracking-widest mb-6">SURVIVR</h1>
       <p className="text-lg text-orange-300 mb-6">A survival game on-chain</p>
 
       <a
@@ -18,13 +13,13 @@ export default function Home() {
 
       <p className="text-sm text-orange-300 mt-8">Mint coming soon</p>
       <a
-  href="https://twitter.com/Survivrnbrone"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-sm underline text-orange-400 mt-2"
->
-  Follow us on X
-</a>
+        href="https://twitter.com/Survivrnbrone"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm underline text-orange-400 mt-2"
+      >
+        Follow us on X
+      </a>
 
       <div id="whitepaper" className="mt-20 max-w-3xl text-left">
         <h2 className="text-2xl font-bold mb-4">SURVIVR Whitepaper (Lite)</h2>
