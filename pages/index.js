@@ -23,10 +23,13 @@ export default function Home() {
 
       <div id="whitepaper" className="mt-20 max-w-3xl text-center">
         <h2 className="text-2xl font-bold mb-4">SURVIVR Whitepaper (Lite)</h2>
-        <p className="mb-4">
-          SURVIVR is a fully on-chain death game. 999 NFTs enter. 1 survives.
-          Elimination is random. The last wallet standing wins 70% of the pot.
-        </p>
+        <p className="mb-2">
+  SURVIVR is a fully on-chain death game. 999 NFTs enter. 1 survives.
+  Elimination is random.
+</p>
+<p className="mb-4 font-semibold text-orange-400">
+  The last wallet standing wins 70% of the pot.
+</p>
         <ul className="list-disc list-inside space-y-2 inline-block text-left">
           <li className="text-center">Mint: 0.01 ETH per NFT</li>
           <li className="text-center">1 elimination every minute (after sellout)</li>
