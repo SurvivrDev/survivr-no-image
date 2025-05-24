@@ -3,7 +3,16 @@ import React from 'react';
 
 export default function Whitepaper() {
   return (
-    <div className="min-h-screen bg-black text-orange-500 px-6 py-12 max-w-4xl mx-auto">
+    <div className="min-h-screen bg-black text-orange-500 px-4 py-12 w-full max-w-5xl mx-auto">
+      <div className="text-center mb-10">
+        <a
+          href="/"
+          className="inline-block bg-orange-500 text-black px-4 py-2 rounded-xl font-bold hover:bg-orange-400 transition"
+        >
+          ← Back to site
+        </a>
+      </div>
+
       <h1 className="text-4xl font-bold text-center mb-10">SURVIVR - Whitepaper</h1>
 
       <section className="mb-10">
