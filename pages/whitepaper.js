@@ -44,8 +44,9 @@ export default function Whitepaper() {
           <li>Automation triggered by cron or keeper network to eliminate one NFT every minute.</li>
           <li>Winner is the last token remaining in the supply.</li>
           <li>ETH payout is automatic and on-chain to the final wallet.</li>
+<li>No admin keys. No pauses. No manual overrides.</li>
+<li>Contract deployed by : 0x51ae61341B8Eef35a56F6c3C29b4Ba6Bee025c22 (official Survivr wallet)</li>
         </ul>
-        <p>No admin keys. No pauses. No manual overrides.</p>
       </section>
 
       <section className="mb-10">
