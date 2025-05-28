@@ -47,7 +47,7 @@ export default function Home() {
 </div>
 
         <p className="mt-6 text-orange-300 text-sm">
-          Whitepaper is live. Contract & audit drop next.
+          Whitepaper is live. Smart Contract under test. Audit drop next.
         </p>
 <p className="mt-2 text-orange-400 text-xs break-words">
   Contract Address:<br />
