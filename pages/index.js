@@ -36,6 +36,16 @@ export default function Home() {
           <li className="text-center">NFTs evolve visually as players are eliminated</li>
           <li className="text-center">Final reward sent automatically to the last survivor</li>
         </ul>
+<div className="mt-6 flex flex-col items-center">
+  <button
+    disabled
+    className="bg-orange-500 text-black font-bold py-3 px-6 rounded-xl opacity-50 cursor-not-allowed"
+  >
+    Mint
+  </button>
+  <span className="text-sm text-orange-300 mt-2">Coming soon</span>
+</div>
+
         <p className="mt-6 text-orange-300 text-sm">
           Whitepaper is live. Contract & audit drop next.
         </p>
