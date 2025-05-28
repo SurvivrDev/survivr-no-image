@@ -49,6 +49,10 @@ export default function Home() {
         <p className="mt-6 text-orange-300 text-sm">
           Whitepaper is live. Contract & audit drop next.
         </p>
+<p className="mt-2 text-orange-400 text-xs break-words">
+  Contract Address:<br />
+  <span className="font-mono">0x51ae61341B8Eef35a56F6c3C29b4Ba6Bee025c22</span>
+</p>
       </div>
     </div>
   );
