@@ -46,15 +46,12 @@ export default function Home() {
   <span className="text-sm text-orange-300 mt-2">Coming soon</span>
 </div>
 
-<div className="w-64 h-4 bg-orange-200 rounded-full mt-4">
-    <div
-      className="h-full bg-orange-500 rounded-full"
-      style={{ width: "12%" }} // ← à adapter dynamiquement plus tard
-    ></div>
+<div className="mt-6 w-full max-w-md flex flex-col items-center">
+  <div className="w-full bg-orange-100 h-4 rounded-full overflow-hidden">
+    <div className="bg-orange-500 h-4" style={{ width: "0%" }}></div>
   </div>
-  <p className="text-xs text-orange-300 mt-1">
-    120 / 999 minted
-  </p>
+  <p className="text-sm text-orange-300 mt-2">0 / 999 minted</p>
+</div>
 
 
         <p className="mt-6 text-orange-300 text-sm">
