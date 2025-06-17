@@ -46,9 +46,9 @@ export default function Home() {
   <span className="text-sm text-orange-300 mt-2">Coming soon</span>
 </div>
 
-<div className="mt-6 w-full max-w-md flex flex-col items-center">
-  <div className="w-full bg-orange-100 h-4 rounded-full overflow-hidden">
-    <div className="bg-orange-500 h-4" style={{ width: "0%" }}></div>
+<div className="mt-6 flex flex-col items-center">
+  <div className="h-4 w-64 bg-orange-100 rounded-full overflow-hidden">
+    <div className="h-4 bg-orange-500" style={{ width: "0%" }}></div>
   </div>
   <p className="text-sm text-orange-300 mt-2">0 / 999 minted</p>
 </div>
